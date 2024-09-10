@@ -21,16 +21,30 @@
         </header>
         
         <main>
-            <form>
-                <label for="body">Message</label>
-                <input type="text" id="body" name="body" required>
-
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" value="Submission from Eriks website" required>
-
-                <button type="button" onclick="sendMail()">Submit my request</button>
-            </form>
-
+            <div id="contact-section">
+                <form class="contact-form">
+                    <div id="radio-buttons">
+                        <input type="radio" id="Mr" name="title" value="Mr.">
+                        <label for="Mr">Mr / </label>
+                        <input type="radio" id="Mrs" name="title" value="Mrs.">
+                        <label for="Mrs">Mrs</label>
+                    </div>
+                    <input type="text" id="fname" name="fname" placeholder=" Firstname...">
+                    <input type="text" id="lname" name="lname" placeholder=" Last name...">
+                    
+                    <select id="subject" name="subject">
+                        <option value="">Select a subject...</option>
+                        <option value="Project collaboration">Project collaboration</option>
+                        <option value="Feature request">Feature request</option>
+                        <option value="Suggested improvement">Suggested improvement</option>
+                    </select>
+                        
+                    <textarea type="text" maxlength="200" id="body" name="body" placeholder=" Write your message here..."></textarea>
+                    
+                    <input type="email" id="cc" name="cc" placeholder=" Send a copy to...">
+                    <button type="button" id="submit-btn" onclick="sendMail()">Send message</button>
+                </form>
+            </div>
             <script src="contact-form.js"></script>
         </main>
 

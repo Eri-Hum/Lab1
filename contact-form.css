@@ -1,0 +1,40 @@
+#contact-section {
+    background-color: #D9D9D9;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#fname, #lname, #subject, #cc{
+    height: 30px;
+    margin: 3% 3% 0% 3%;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#body {
+    height: 200px;
+    margin: 3% 3% 0% 3%;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#radio-buttons {
+    margin: 3% 3% 0% 3%;
+}
+
+#submit-btn {
+    margin: 3% 0% 3% 3%;
+    width: 30%;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+}
