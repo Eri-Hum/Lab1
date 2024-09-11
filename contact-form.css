@@ -38,3 +38,16 @@
     border: 0px;
     border-radius: 5px;
 }
+
+#collaboration-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3%;
+}
+
+    
+#handshake {
+    width: 50%;
+}

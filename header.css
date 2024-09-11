@@ -4,3 +4,20 @@ header {
     background-color: #D9D9D9;
     z-index: 500;
 }
+
+#header-nav{
+    display: flex;
+    justify-content: center;
+}
+
+/*T, R, B,*/
+#header-nav a {
+    margin: 2% 1% 0% 1%;
+    background-color: #D8D8D8;
+    padding: 2% 5% 2% 5%;
+}
+
+#header-nav a.active {
+    background-color: #FFFFFF;
+}
+
