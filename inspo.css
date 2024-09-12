@@ -1,0 +1,23 @@
+#inspo-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    margin: 5% 0% 0% 0%;
+    gap: 5%;
+}
+
+#inspo-container > * {
+    margin-bottom: 3%;
+}
+
+ol li {
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+

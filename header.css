@@ -1,7 +1,7 @@
 header {
     position: sticky;
     top: 0;
-    background-color: #D9D9D9;
+    background-color: #0c192c;
     z-index: 500;
 }
 
@@ -10,14 +10,17 @@ header {
     justify-content: center;
 }
 
-/*T, R, B,*/
+/*T, R, B, L*/
 #header-nav a {
-    margin: 2% 1% 0% 1%;
-    background-color: #D8D8D8;
-    padding: 2% 5% 2% 5%;
+    margin: 1% 1% 0% 1%;
+    padding: 1% 5% 1% 5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    Color: #FFFFFF;
 }
 
 #header-nav a.active {
-    background-color: #FFFFFF;
+    background-color: #142847;
+    color: #FFFFFF;
 }
 

@@ -13,18 +13,22 @@ html {
 
 body {
     height: 100%;
+    background-color: #142847;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
 }
 
 p {
     font-family: 'Arial', sans-serif;
+    color: #FFFFFF;
 }
 
 q {
     font-family: 'Arial', sans-serif;
+    color: #FFFFFF;
 }
 
 div.grid-container {
@@ -65,5 +69,6 @@ header {
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
 }
