@@ -64,3 +64,9 @@
 #handshake {
     width: 50%;
 }
+
+textarea, input::placeholder {
+    color: gray;
+    font-style: italic;
+}
+

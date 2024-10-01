@@ -31,3 +31,8 @@ blockquote {
 .full-article article h3 {
     margin-bottom: 2%;
 }
+
+p::first-line {
+    font-weight: bold;
+    color: aqua;
+}

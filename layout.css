@@ -79,8 +79,11 @@ a:hover {
 
 button {
     cursor: pointer;
+    transition: transform 0.3s;
 }
 
 button:hover {
     transform: scale(1.05);
+    color: #142847;
+    background-color: #FFFFFF;
 }
