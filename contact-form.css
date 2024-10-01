@@ -1,16 +1,17 @@
 #contact-section {
-    background-color: #D9D9D9;
+    background-color: #0c192c;
     width: 100%;
     max-width: 1000px;
     margin-top: 5%;
     margin-bottom: 5%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    color: #FFFFFF;
 }
 
 #fname, #lname, #subject, #cc{
@@ -45,6 +46,18 @@
     justify-content: center;
     width: 100%;
     margin-top: 3%;
+}
+
+#collaboration-section {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+#encourage-message {
+    max-width: 1000px;
+    margin-top: 5%;
 }
 
     

@@ -4,10 +4,11 @@
     grid-template-rows: 100%;
     gap: 1%;
     justify-content: center;
-    max-width: 1250;
+    max-width: 1250px;
     margin-bottom: 3%;
     margin-top: 3%;
 }
+
 
 .my-background {
     width: 100%;
