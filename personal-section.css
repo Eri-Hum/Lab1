@@ -19,6 +19,7 @@
 
 .my-image {
     width: 100%;
+    max-width: 1000px;
     height: auto;
     border-radius: 10px;
 }

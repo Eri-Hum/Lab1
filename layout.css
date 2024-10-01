@@ -72,3 +72,15 @@ a {
     color: #FFFFFF;
     font-family: 'Arial', sans-serif;
 }
+
+a:hover {
+    transform: scale(1.05);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
