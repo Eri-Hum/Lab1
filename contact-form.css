@@ -65,8 +65,9 @@
     width: 50%;
 }
 
-textarea, input::placeholder {
+textarea::placeholder, input::placeholder {
     color: gray;
     font-style: italic;
 }
+
 
